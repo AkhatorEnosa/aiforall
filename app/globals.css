@@ -1,33 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #181818;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 200;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.signup {
+  background: linear-gradient(119.83deg, #FFDE59 20.31%, #998535 248.91%);
+  box-shadow: inset 6px 3px 4px rgba(254, 250, 215, 0.36);
+  color: #212121;
+}
+
+.contact-button {
+  background: rgba(217, 217, 217, 0.04);
+  box-shadow: inset 6px 3px 12px rgba(254, 250, 215, 0.32);
+}
+
+.demo-button {
+  background: linear-gradient(125.17deg, #FFDE59 18.75%, #998535 126.73%);
+  box-shadow: inset 6px 3px 4px rgba(254, 250, 215, 0.36);
+}
+
+h2 > span {
+  background: linear-gradient(270deg, #FBCE07 0%, #DAC050 29.69%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.value-h {
+font-style: normal;
+font-weight: 800;
+font-size: 54px;
+line-height: 50px;
+/* or 93% */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Ai forall */
+background: linear-gradient(96.62deg, #FFFFFF 4.97%, #FBCE07 89.16%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.value-h2 {
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Ai forall */
+background: linear-gradient(96.62deg, #FFFFFF 4.97%, #FBCE07 89.16%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+
+.glow {
+  filter: blur(600px);
 }
