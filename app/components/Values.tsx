@@ -47,7 +47,7 @@ const Values = () => {
                 desc = "This value emphasizes how the AI tutors help students become self-directed learners.  Phrases like &ldquo;fostering independence&rdquo; and &ldquo;building critical thinking skills&rdquo; can be used to elaborate."
                 width = ""
                 alt = "star"
-                glowClass = "glow absolute p-72 rotate-[-57deg] -right-52 -top-64 opacity-40 bg-[#FFDE59] z-20"
+                glowClass = "glow absolute p-72 rotate-[-57deg] -left-52 -bottom-64 opacity-40 bg-[#FFDE59] z-20"
                 textClass='text-[16px] leading-[24px] w-[311px]'
                 />
                 <ValuesCards 
@@ -59,7 +59,7 @@ const Values = () => {
                 desc = "This value emphasizes how the AI tutors help students become self-directed learners.  Phrases like &ldquo;fostering independence&rdquo; and &ldquo;building critical thinking skills&rdquo; can be used to elaborate."
                 width = ""
                 alt = "star"
-                glowClass = "glow absolute p-72 rotate-[-57deg] -right-52 -top-64 opacity-40 bg-[#FFDE59] z-20"
+                glowClass = "glow absolute p-72 rotate-[-57deg] right-0 -top-64 opacity-40 bg-[#FFDE59] z-20"
                 textClass='text-[16px] leading-[24px] w-[311px]'
                 />
                 <ValuesCards 
@@ -71,7 +71,7 @@ const Values = () => {
                 desc = "This value emphasizes how the AI tutors help students become self-directed learners.  Phrases like &ldquo;fostering independence&rdquo; and &ldquo;building critical thinking skills&rdquo; can be used to elaborate."
                 width = ""
                 alt = "star"
-                glowClass = "glow absolute p-72 rotate-[-57deg] -right-52 -top-64 opacity-40 bg-[#FFDE59] z-20"
+                glowClass = "glow absolute p-72 rotate-[-57deg] -right-52 -bottom-64 opacity-40 bg-[#FFDE59] z-20"
                 textClass='text-[16px] leading-[24px] w-[311px]'
                 />
             </div>
